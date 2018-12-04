@@ -1,0 +1,22 @@
+{
+  "Begs_1": {
+    "cost": "205",
+    "description": "Multi Vitamin",
+    "image": "1.jpg"
+  },
+  "Begs_2": {
+    "cost": "204",
+    "description": "Red Furia",
+    "image": "162.jpg"
+  },
+  "Begs_3": {
+    "cost": "400",
+    "description": "Brownish threat",
+    "image": "3.jpg"
+  },
+  "Begs_4": {
+    "cost": "304",
+    "description": "Bright surprise",
+    "image": "4.jpg"
+  }
+}

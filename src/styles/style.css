@@ -1,0 +1,234 @@
+*
+{
+    margin: 0;
+    padding: 0;
+	font-family: 'Segoe UI Light';
+ }
+ @font-face 
+ {
+	font-family: 'Segoe UI Light';
+	src: url('src/font/SegoeUI-Light.eot');
+	src: url('src/font/SegoeUI-Light.eot?#iefix') format('embedded-opentype'),
+	url('src/font/SegoeUI-Light.woff') format('woff'),
+	url('src/font/SegoeUI-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+ul
+{
+    list-style: none;
+}
+a, a:hover
+{
+	color: black;
+    text-decoration: none;
+}
+body
+{	
+	margin-top: 10px;
+	height: 769px;
+}
+div:after
+{
+	display: table;
+	content: "";
+	width: 100%;
+}
+div::before
+{
+	display: table;
+	content: "";
+	width: 100%;
+}
+h1
+{
+	font-weight: lighter;
+}
+
+/*Index html*/
+	.content_box
+		{
+			width: 1366px;
+			height: 768px;	
+			margin: 0 auto;
+			position: relative;		
+		}
+
+	/*buttom craft*/
+		.button_cart
+			{
+				width: 280px;
+				height: 60px;
+				background-color: #d9644a;
+				position: absolute;
+				right: 90px;
+				top: 40px;
+			}
+		.button_cart:hover
+			{
+				opacity: .8;
+				cursor: pointer;
+			}
+		.button_cart p
+			{	
+				display: block;
+				color: white;
+				margin: 15px 0 0 210px;
+				font-size: 20px;
+			}
+		.button_cart img
+			{			
+				margin: 15px 0 0 15px;			
+			}
+	/*end buttom craft*/
+
+	h1, .content_box img
+		{
+			position: absolute;
+		}
+	h1
+		{
+			margin: 0 0 0 46px;
+			display: block;
+			margin: 40px 0 0 0;
+			font-size: 41px;
+		}
+		header
+		{
+			margin: 0 0 0 46px;
+		}
+	.bottom_line
+		{
+			margin-top: 763px;
+		}
+
+	/*Box catalog*/
+		.box_catalog
+			{
+				width: 1320px;
+				height: 560px;
+				display: flex;
+				margin: 140px 46px;		
+				position: absolute;
+			}
+		.shirts
+			{
+				position: relative;
+				width: 360px;
+				height: 370px;
+				background: url(../media/img/shirts.png) no-repeat center center / cover;
+			}
+		.caps
+			{
+				position: relative;
+				width: 360px;
+				height: 180px;
+				background: url(../media/img/caps.png) no-repeat center center / cover;
+			}
+		.cards, .toys, .magnets, .pens, .scrum_cards
+			{
+				position: relative;
+				background-color: black;
+				width: 230px;
+				height: 180px;
+			}
+		.cards
+			{
+				background: url(../media/img/cards.png) no-repeat center center / cover;
+			}
+		.toys
+			{
+				background: url(../media/img/toys.png) no-repeat center center / cover;
+			}
+		.magnets
+			{
+				background: url(../media/img/manets.png) no-repeat center center / cover;
+			}
+		.pens
+			{
+				background: url(../media/img/pens.png) no-repeat center center / cover;
+			}
+		.scrum_cards
+			{
+				background: url(../media/img/scrum_cards.png) no-repeat center center / cover;
+			}
+		.bags
+			{
+				position: relative;
+				height: 370px;
+				width: 230px;
+				background: url(../media/img/bags.png) no-repeat center center / cover;
+			}
+		.notebooks
+			{
+				position: relative;
+				width: 470px;
+				height: 180px;
+				background: url(../media/img/notebooks.png) no-repeat center center / cover;
+			}
+		.cards:hover, .toys:hover, .magnets:hover, .pens:hover, .scrum_cards:hover,.bags:hover, .shirts:hover, .caps:hover, .notebooks:hover
+			{
+				opacity: .8;
+				cursor: pointer;
+			}
+		.light_line
+			{		
+				position: absolute;
+				height: 40px;
+				background-color: #e3dad0;
+				opacity: .8;
+				bottom: 0px;
+				width: 100%;
+			}
+			.light_line p
+			{		
+				margin: 8px 0 0 20px;
+			}
+		.first_column
+			{
+				width: 360px;
+				height: 560px;
+				margin-right: 5px;
+			}
+		.second_column
+			{
+				width: 230px;
+				height: 560px;
+				margin-right: 5px;
+				margin-left: 5px;
+			}
+		.third_column
+			{
+				width: 230px;
+				height: 560px;
+				margin-right: 5px;
+				margin-left: 5px;
+			}
+		.fourth_column
+			{
+				width: 470px;
+				height: 560px;
+				margin-left: 5px;
+			}
+		.a2, .d2, .b3, .b2, .c2, .c5, .d3
+			{
+				margin-top: 10px;
+			}
+		.d
+			{
+				margin-left: 240px;
+				margin-top: -370px;
+			}
+		.d5
+			{
+				margin-left: 240px;
+				margin-top: 10px;
+			}
+		.d4
+			{
+				margin-left: 240px;
+				margin-top: -370px;
+			}		
+	/*end box catalog*/
+
+/*end Index html*/

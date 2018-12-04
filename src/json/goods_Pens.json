@@ -1,0 +1,22 @@
+{
+  "Pens_1": {
+    "cost": "20",
+    "description": "Magnets",
+    "image": "1.jpg"
+  },
+  "Pens_2": {
+    "cost": "2",
+    "description": "Woman and Man",
+    "image": "2.jpg"
+  },
+  "Pens_3": {
+    "cost": "4",
+    "description": "Fan-shaped",
+    "image": "3.jpg"
+  },
+  "Pens_4": {
+    "cost": "4",
+    "description": "Shirt",
+    "image": "4.jpg"
+  }
+}
